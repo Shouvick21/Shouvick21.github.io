@@ -33,10 +33,20 @@ nav_link.forEach((navlinkelement)=>{
 //--------------- darkmode and lightmode functionality-----------
 
 let tooglebox=document.querySelector("#tooglebox")
-
+let logo=document.querySelector("#logo")
+flag=true
 tooglebox.addEventListener("click",()=>{
-   
+    if (flag){
+        logo.src="./images/navber/black logo.png"
         document.body.classList.toggle("light_mode")
+        flag=false
+    }
+    else{
+        logo.src="./images/navber/white logo.png"
+        document.body.classList.toggle("light_mode")
+        flag=true
+    }
+    
         
 
     
