@@ -51,6 +51,8 @@ tooglebox.addEventListener("click",()=>{
 
     
 })
+//  ------------------------home section -------------------------
+
 let resume_navber=document.querySelector("#resume-link-1")
 let resume_btn =document.querySelector("#resume-button-2")
 
@@ -104,6 +106,31 @@ contact_twitter.addEventListener("click",()=>{
 let contact_facebook=document.querySelector("#contact-facebook").addEventListener("click",()=>{
     window.open("https://www.facebook.com/shouvick.bachhar","_blank")
 })
+
+// ------------------------project section--------------------
+
+// -------------Toogood project-------------------------
+let toogood_github=document.querySelector("#toogood_github")
+let toogood_deploy=document.querySelector("#toogood_deploy")
+
+toogood_github.addEventListener("click",()=>{
+    window.open("https://github.com/Shouvick21/toogood","_blank")
+})
+toogood_deploy.addEventListener("click",()=>{
+    window.open("https://toogood-ten.vercel.app/","_blank")
+})
+
+//  ------------scheduler project-----------------------------
+let Scheduler_github=document.querySelector("#Scheduler_github")
+let Scheduler_deploy=document.querySelector("#Scheduler_deploy")
+
+Scheduler_github.addEventListener("click",()=>{
+    window.open("https://github.com/Shouvick21/Scheduler","_blank")
+})
+Scheduler_deploy.addEventListener("click",()=>{
+    window.open("https://scheduler-sable.vercel.app/","_blank")
+})
+
 
 
 // -----------------contact section-----------------
