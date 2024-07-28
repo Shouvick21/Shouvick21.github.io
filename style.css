@@ -516,6 +516,27 @@ a::after {
 }
 
 /* -------------------- project section--------------------------- */
+#project_heding{
+    font-size: 45px;
+    color: var(--textcolor);
+    position: relative;
+
+}
+#project_heding::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: var(--maincolor);
+    top: 60px;
+    left: 0px;
+    transition: width .5s;
+}
+#project_heding:hover::after{
+    width: 100%;
+}
+
+
 #projects {
   margin: auto;
   max-width: 1560px;
