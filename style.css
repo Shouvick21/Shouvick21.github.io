@@ -179,6 +179,8 @@ a::after {
   color: var(--textcolor);
   padding: 40px;
   padding-top: 85px;
+  margin-top: 80px;
+  padding-bottom: 85px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -228,11 +230,36 @@ a::after {
     transform: translateY(0);
   }
 }
-@media (width<=1000px) {
+@media(width<=1224px){
   #home {
     padding: 20px;
     gap: 0;
   }
+  #home_content > h3 {
+    font-size: 2.2rem;
+  }
+  #home_content > h1 {
+    font-size: 4.0rem;
+  }
+  #home_content > p {
+    font-size: 22px;
+  }
+}
+@media (width<=1000px) {
+  #home {
+    padding: 10px;
+    gap: 0;
+  }
+  #home_content > h3 {
+    font-size: 2.0rem;
+  }
+  #home_content > h1 {
+    font-size: 3.6rem;
+  }
+  #home_content > p {
+    font-size: 20px;
+  }
+  
   #profilepic {
     padding: 20px 0px;
   }
@@ -240,7 +267,7 @@ a::after {
 @media (width<=800px) {
   #home {
     padding: 40px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
   }
   #home_content {
