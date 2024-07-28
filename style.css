@@ -631,6 +631,9 @@ a::after {
   border: none;
 }
 @media (width<=1200px) {
+    #project_heding{
+        font-size: 40px;
+    }
   .project-card {
     width: 95%;
   }
@@ -639,6 +642,9 @@ a::after {
   }
 }
 @media (width<=912px) {
+    #project_heding{
+        font-size: 35px;
+    }
   .project-card {
     width: 80%;
   }
@@ -656,6 +662,9 @@ a::after {
   }
 }
 @media (width<=700px) {
+    #project_heding{
+        font-size: 30px;
+    }
   .project-card {
     width: 90%;
   }
