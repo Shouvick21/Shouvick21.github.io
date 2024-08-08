@@ -542,6 +542,14 @@ a::after {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, var(--maincolor) 0px 3px 6px;
 }
 
+@media(width<=500px){
+  #all-img{
+
+    padding: 0px;
+  }
+
+}
+
 /* -------------------- project section--------------------------- */
 #project_heding{
     font-size: 45px;
