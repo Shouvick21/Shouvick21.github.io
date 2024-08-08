@@ -30,14 +30,19 @@ nav_link.forEach((navlinkelement) => {
 
 let tooglebox = document.querySelector("#tooglebox");
 let logo = document.querySelector("#logo");
+
 flag = true;
 tooglebox.addEventListener("click", () => {
   if (flag) {
     logo.src = "./images/navber/black logo.png";
+    menuicon.src="./images/navber/black menu.svg"
+    closeicon.src="./images/navber/cross black.svg"
     document.body.classList.toggle("light_mode");
     flag = false;
   } else {
     logo.src = "./images/navber/white logo.png";
+    menuicon.src="./images/navber/white menu.svg"
+    closeicon.src="./images/navber/white cancel.svg"
     document.body.classList.toggle("light_mode");
     flag = true;
   }
