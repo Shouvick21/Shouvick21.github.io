@@ -54,7 +54,7 @@ let resume_btn = document.querySelector("#resume-button-2");
 
 const pdfopen_download = () => {
   console.log("click");
-  pdfurl = "./ShouvickBachhar-FullStackWebDeveloper-Rtxg.pdf";
+  pdfurl = "./resume.pdf";
   window.open(pdfurl, "_blank");
 
   let a_tag = document.createElement("a");
@@ -65,7 +65,7 @@ const pdfopen_download = () => {
 };
 resume_btn.addEventListener("click", pdfopen_download);
 const pdfdownload = () => {
-  pdfurl = "./ShouvickBachhar-FullStackWebDeveloper-Rtxg.pdf";
+  pdfurl = "./resume.pdf";
 
   let a_tag = document.createElement("a");
   a_tag.href = pdfurl;
