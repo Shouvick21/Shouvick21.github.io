@@ -139,6 +139,6 @@ phno.addEventListener("click", () => {
 
 let email = document.querySelector("#contact-email");
 email.addEventListener("click", () => {
-  window.open("mailto:" + "bachharshouvickp2@gmail.com", "_blank");
+  window.open("mailto:" + "bachharshouvickp2@gmail.com", "_blank")
 });
 
