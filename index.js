@@ -98,6 +98,17 @@ let contact_facebook = document
 
 // ------------------------project section--------------------
 
+// -------------Chatterbox project-------------------------
+let Chatterbox_github = document.querySelector("#Chatterbox_github");
+let Chatterbox_deploy = document.querySelector("#Chatterbox_deploy");
+
+Chatterbox_github.addEventListener("click", () => {
+  window.open("https://github.com/Shouvick21/chat_application", "_blank");
+});
+Chatterbox_deploy.addEventListener("click", () => {
+  window.open("https://chat-application-psi-ten.vercel.app/", "_blank");
+});
+
 // -------------Toogood project-------------------------
 let toogood_github = document.querySelector("#toogood_github");
 let toogood_deploy = document.querySelector("#toogood_deploy");
