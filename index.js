@@ -54,7 +54,7 @@ let resume_btn = document.querySelector("#resume-button-2");
 
 const pdfopen_download = () => {
   console.log("click");
-  pdfurl = "./ShouvickBachhar_resume.pdf";
+  pdfurl = "./shouvickBachhar_AndroidDeveloper.pdf";
   window.open(pdfurl, "_blank");
 
   let a_tag = document.createElement("a");
@@ -65,7 +65,7 @@ const pdfopen_download = () => {
 };
 resume_btn.addEventListener("click", pdfopen_download);
 const pdfdownload = () => {
-  pdfurl = "./ShouvickBachhar_resume.pdf";
+  pdfurl = "./shouvickBachhar_AndroidDeveloper.pdf";
 
   let a_tag = document.createElement("a");
   a_tag.href = pdfurl;
@@ -98,38 +98,55 @@ let contact_facebook = document
 
 // ------------------------project section--------------------
 
+// -------------NeutriSport project-------------------------
+let neutrisport_github = document.querySelector("#neutrisport_github");
+
+neutrisport_github.addEventListener("click", () => {
+  window.open("https://github.com/Shouvick21/nutrisport", "_blank");
+});
+
+// -------------GameoPedia project-------------------------
+let gameopedia_github = document.querySelector("#gameopedia_github");
+
+gameopedia_github.addEventListener("click", () => {
+  window.open("https://github.com/Shouvick21/Gameopedia", "_blank");
+});
+
+
+
 // -------------Chatterbox project-------------------------
 let Chatterbox_github = document.querySelector("#Chatterbox_github");
 let Chatterbox_deploy = document.querySelector("#Chatterbox_deploy");
 
 Chatterbox_github.addEventListener("click", () => {
+  
   window.open("https://github.com/Shouvick21/chat_application", "_blank");
 });
 Chatterbox_deploy.addEventListener("click", () => {
   window.open("https://chat-application-psi-ten.vercel.app/", "_blank");
 });
 
-// -------------Toogood project-------------------------
-let toogood_github = document.querySelector("#toogood_github");
-let toogood_deploy = document.querySelector("#toogood_deploy");
+// // -------------Toogood project-------------------------
+// let toogood_github = document.querySelector("#toogood_github");
+// let toogood_deploy = document.querySelector("#toogood_deploy");
 
-toogood_github.addEventListener("click", () => {
-  window.open("https://github.com/Shouvick21/toogood", "_blank");
-});
-toogood_deploy.addEventListener("click", () => {
-  window.open("https://toogood-ten.vercel.app/", "_blank");
-});
+// toogood_github.addEventListener("click", () => {
+//   window.open("https://github.com/Shouvick21/toogood", "_blank");
+// });
+// toogood_deploy.addEventListener("click", () => {
+//   window.open("https://toogood-ten.vercel.app/", "_blank");
+// });
 
-//  ------------scheduler project-----------------------------
-let Scheduler_github = document.querySelector("#Scheduler_github");
-let Scheduler_deploy = document.querySelector("#Scheduler_deploy");
+// //  ------------scheduler project-----------------------------
+// let Scheduler_github = document.querySelector("#Scheduler_github");
+// let Scheduler_deploy = document.querySelector("#Scheduler_deploy");
 
-Scheduler_github.addEventListener("click", () => {
-  window.open("https://github.com/Shouvick21/Scheduler", "_blank");
-});
-Scheduler_deploy.addEventListener("click", () => {
-  window.open("https://scheduler-sable.vercel.app/", "_blank");
-});
+// Scheduler_github.addEventListener("click", () => {
+//   window.open("https://github.com/Shouvick21/Scheduler", "_blank");
+// });
+// Scheduler_deploy.addEventListener("click", () => {
+//   window.open("https://scheduler-sable.vercel.app/", "_blank");
+// });
 
 // -----------------contact section-----------------
 
